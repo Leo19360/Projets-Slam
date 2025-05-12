@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0ab2fa;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.Titre {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.div-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
